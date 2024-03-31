@@ -30,7 +30,8 @@ Height:100%;
     width: 100%;
 }
 .nav
-{   
+{    position: relative;
+    top: 0; 
     background-color: white;
     padding: 0vw 4vw;
     width: 100%;
@@ -419,7 +420,7 @@ Height:100%;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
    .rightnav{
     display: none;
    }
