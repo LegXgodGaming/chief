@@ -35,6 +35,14 @@ var Typing = new Typed(".multitext",{
     backDelay : 1500,
 })
 
+// gsap.from(".nav",{
+//     y: -100,
+//     duration:3,
+//     delay:0.2,
+    
+      
+// });
+
 
 
 gsap.from(".leftmid",{
@@ -73,8 +81,8 @@ gsap.from(".right2", {
         end: "top 10%",
         // scrub: 3,
     },
-    x: 200,
-    duration: 1.5
+    y: 100,
+    duration: 1
 });
 gsap.from(".right4", {
     scrollTrigger: {
@@ -85,7 +93,7 @@ gsap.from(".right4", {
         end: "top 10%",
         // scrub: 3,
     },
-    x: 200,
+    y: 200,
     duration: 1.5
 });
 gsap.from(".left4", {
