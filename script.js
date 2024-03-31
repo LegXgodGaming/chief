@@ -109,7 +109,7 @@ gsap.from(".left4", {
     duration: 1.5
 });
 
-
+var main = document.querySelector(".main");
 var menu = document.querySelector(".midnaaa");
 var menu2 = document.querySelector(".midnaaa2");
 var nav = document.querySelector(".nav2");
@@ -118,10 +118,13 @@ var nav = document.querySelector(".nav2");
 menu.addEventListener('click', function() {
     nav.style.display = "flex";
     nav.style.animation = "menu 0.5s ease-out forwards";
+    main.style.display = "none";
     
 });
 
 menu2.addEventListener('click', function() {
     nav.style.display = "none";
     nav.style.animation = "menu2 0.5s ease-out forwards";
+    main.style.display = "block";
 });
+
